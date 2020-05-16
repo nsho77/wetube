@@ -5,10 +5,15 @@
   "main": "index.js",
   "author": "Seongho Roh",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "dependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
   }
 }
